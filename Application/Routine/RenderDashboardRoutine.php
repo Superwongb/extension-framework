@@ -1,11 +1,11 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\Application\Routine;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\Application\Routine;
 
 use Symfony\Contracts\EventDispatcher\Event;
-use Webkul\UVDesk\CoreFrameworkBundle\Dashboard\DashboardTemplate;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Application\RoutineInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\ApplicationInterface;
+use Harryn\Jacobn\CoreFrameworkBundle\Dashboard\DashboardTemplate;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Application\RoutineInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\ApplicationInterface;
 
 class RenderDashboardRoutine extends Event implements RoutineInterface
 {

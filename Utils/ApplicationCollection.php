@@ -1,11 +1,11 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\Utils;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\Utils;
 
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\MappingResource;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Package\PackageInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Application\ApplicationInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\MappingResource;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Package\PackageInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Application\ApplicationInterface;
 
 class ApplicationCollection
 {

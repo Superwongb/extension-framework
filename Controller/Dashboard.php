@@ -1,12 +1,12 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\Controller;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Utils\ApplicationCollection;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Utils\ApplicationCollection;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 class Dashboard extends AbstractController

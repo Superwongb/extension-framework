@@ -1,9 +1,9 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Application;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Application;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Package\PackageInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Package\PackageInterface;
 
 abstract class Application implements ApplicationInterface, EventSubscriberInterface
 {

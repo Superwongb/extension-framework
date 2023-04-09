@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Package;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Package;
 
 use Symfony\Component\Config\Definition\ConfigurationInterface;
 

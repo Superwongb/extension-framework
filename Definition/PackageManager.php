@@ -1,13 +1,13 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\Definition;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\Definition;
 
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\ModuleInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\ApplicationInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Package\PackageMetadata;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Package\PackageInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\ConfigurablePackageInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\ModuleInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\ApplicationInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Package\PackageMetadata;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Package\PackageInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\ConfigurablePackageInterface;
 
 class PackageManager
 {

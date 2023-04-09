@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\EventListener;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\EventListener;
 
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Event\RequestEvent;
@@ -8,7 +8,7 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
 use Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent;
 use Symfony\Component\HttpKernel\Event\ControllerArgumentsEvent;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\MappingResource;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\MappingResource;
 
 class Kernel
 {

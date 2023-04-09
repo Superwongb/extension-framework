@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\DependencyInjection;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\DependencyInjection;
 
 use Symfony\Component\Yaml\Yaml;
 use Symfony\Component\Config\FileLocator;
@@ -10,14 +10,14 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\MappingResource;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Configurators\AppConfigurator;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Configurators\PackageConfigurator;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Package\PackageInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Routing\RoutingResourceInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Application\ApplicationInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Package\ConfigurablePackageInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Package\ContainerBuilderAwarePackageInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\MappingResource;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Configurators\AppConfigurator;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Configurators\PackageConfigurator;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Package\PackageInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Routing\RoutingResourceInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Application\ApplicationInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Package\ConfigurablePackageInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Package\ContainerBuilderAwarePackageInterface;
 
 
 class ContainerExtension extends Extension
@@ -51,7 +51,7 @@ class ContainerExtension extends Extension
         
         // Compile modules
         $env = $container->getParameter('kernel.environment');
-        $path = $container->getParameter("kernel.project_dir") . "/uvdesk.lock";
+        $path = $container->getParameter("kernel.project_dir") . "/jacobn.lock";
         $mappingResource = $container->findDefinition(MappingResource::class);
         $availableConfigurations = $this->parsePackageConfigurations($container->getParameter("kernel.project_dir") . "/config/extensions");
         

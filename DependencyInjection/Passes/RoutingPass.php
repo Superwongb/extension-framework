@@ -1,15 +1,15 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\DependencyInjection\Passes;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\DependencyInjection\Passes;
 
 use Symfony\Component\DependencyInjection\Reference;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\RouteLoader;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\RouteLoader;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Routing\RoutingResourceInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Routing\ApiRoutingResourceInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Routing\ExposedRoutingResourceInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Routing\ProtectedRoutingResourceInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Routing\RoutingResourceInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Routing\ApiRoutingResourceInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Routing\ExposedRoutingResourceInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Routing\ProtectedRoutingResourceInterface;
 
 class RoutingPass implements CompilerPassInterface
 {

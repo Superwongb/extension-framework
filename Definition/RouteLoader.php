@@ -1,15 +1,15 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\Definition;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\Definition;
 
 use Symfony\Component\Config\Loader\Loader;
 use Symfony\Component\Routing\RouteCollection;
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use Webkul\UVDesk\CoreFrameworkBundle\Definition\RouterInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Routing\RoutingResourceInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Routing\ApiRoutingResourceInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Routing\ExposedRoutingResourceInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Routing\ProtectedRoutingResourceInterface;
+use Harryn\Jacobn\CoreFrameworkBundle\Definition\RouterInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Routing\RoutingResourceInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Routing\ApiRoutingResourceInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Routing\ExposedRoutingResourceInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Routing\ProtectedRoutingResourceInterface;
 
 class RouteLoader extends Loader implements RouterInterface
 {

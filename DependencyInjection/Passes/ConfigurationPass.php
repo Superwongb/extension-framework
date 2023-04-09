@@ -1,16 +1,16 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\DependencyInjection\Passes;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\DependencyInjection\Passes;
 
 use Symfony\Component\DependencyInjection\Reference;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\MappingResource;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Configurators\Configurator;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\MappingResource;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Configurators\Configurator;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Package\PackageInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Application\ApplicationInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Utils\PackageCollection;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Utils\ApplicationCollection;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Package\PackageInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Application\ApplicationInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Utils\PackageCollection;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Utils\ApplicationCollection;
 
 class ConfigurationPass implements CompilerPassInterface
 {
