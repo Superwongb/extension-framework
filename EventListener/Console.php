@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\EventListener;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\EventListener;
 
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\HttpKernel\KernelInterface;
@@ -9,7 +9,7 @@ use Symfony\Component\Console\Event\ConsoleCommandEvent;
 use Symfony\Component\Console\Event\ConsoleTerminateEvent;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Bundle\FrameworkBundle\Command as SymfonyFrameworkCommand;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\MappingResource;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\MappingResource;
 
 class Console
 {

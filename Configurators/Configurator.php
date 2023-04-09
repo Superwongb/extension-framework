@@ -1,13 +1,13 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\Configurators;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\Configurators;
 
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\MappingResource;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Package\PackageMetadata;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Package\PackageInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Application\ApplicationInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Package\ConfigurablePackageInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\MappingResource;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Package\PackageMetadata;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Package\PackageInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Application\ApplicationInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Package\ConfigurablePackageInterface;
 
 class Configurator
 {

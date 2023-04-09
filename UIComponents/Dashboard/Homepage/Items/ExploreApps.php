@@ -1,9 +1,9 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\UIComponents\Dashboard\Homepage\Items;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\UIComponents\Dashboard\Homepage\Items;
 
-use Webkul\UVDesk\CoreFrameworkBundle\Dashboard\Segments\HomepageSectionItem;
-use Webkul\UVDesk\ExtensionFrameworkBundle\UIComponents\Dashboard\Homepage\Sections\Apps;
+use Harryn\Jacobn\CoreFrameworkBundle\Dashboard\Segments\HomepageSectionItem;
+use Harryn\Jacobn\ExtensionFrameworkBundle\UIComponents\Dashboard\Homepage\Sections\Apps;
 
 class ExploreApps extends HomepageSectionItem
 {

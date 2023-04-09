@@ -2,6 +2,6 @@
 
 namespace Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Routing;
 
-interface ExposedRoutingResourceInterface extends RoutingResourceInterface
+interface ApiRoutingResourceInterface extends RoutingResourceInterface
 {
 }

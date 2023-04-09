@@ -1,14 +1,15 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\DependencyInjection\Passes;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\DependencyInjection\Passes;
 
 use Symfony\Component\DependencyInjection\Reference;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\RouteLoader;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\RouteLoader;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Routing\RoutingResourceInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Routing\ExposedRoutingResourceInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Routing\ProtectedRoutingResourceInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Routing\RoutingResourceInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Routing\ApiRoutingResourceInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Routing\ExposedRoutingResourceInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Routing\ProtectedRoutingResourceInterface;
 
 class RoutingPass implements CompilerPassInterface
 {
@@ -24,6 +25,8 @@ class RoutingPass implements CompilerPassInterface
                     $router->addMethodCall('addExposedRoutingResource', array(new Reference($id), $tags));
                 } else if ($class->implementsInterface(ProtectedRoutingResourceInterface::class)) {
                     $router->addMethodCall('addProtectedRoutingResource', array(new Reference($id), $tags));
+                } else if ($class->implementsInterface(ApiRoutingResourceInterface::class)) {
+                    $router->addMethodCall('addApiRoutingResource', array(new Reference($id), $tags));
                 }
             }
         }

@@ -1,8 +1,8 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Application;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Application;
 
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Package\PackageInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Package\PackageInterface;
 
 interface ApplicationInterface
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Package;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Package;
 
 class PackageMetadata
 {
-    private static $supportedTypes = ['uvdesk-module'];
+    private static $supportedTypes = ['jacobn-module'];
     
     public function __construct($root = '')
     {

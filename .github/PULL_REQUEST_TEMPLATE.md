@@ -1,5 +1,5 @@
 <!--
-Thank you for contributing to UVDesk! Please fill out this description template to help us to process your pull request.
+Thank you for contributing to Jacobn! Please fill out this description template to help us to process your pull request.
 -->
 
 ### 1. Why is this change necessary?

@@ -1,8 +1,8 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\UIComponents\Dashboard\Search;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\UIComponents\Dashboard\Search;
 
-use Webkul\UVDesk\CoreFrameworkBundle\Dashboard\Segments\SearchItemInterface;
+use Harryn\Jacobn\CoreFrameworkBundle\Dashboard\Segments\SearchItemInterface;
 use Symfony\Component\Translation\Translator;
 use Symfony\Component\Translation\Loader\YamlFileLoader;
 use Symfony\Component\HttpFoundation\Request;

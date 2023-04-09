@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\Definition;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\Definition;
 
 class MappingResource
 {

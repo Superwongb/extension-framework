@@ -1,8 +1,8 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\UIComponents\Dashboard\Homepage\Sections;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\UIComponents\Dashboard\Homepage\Sections;
 
-use Webkul\UVDesk\CoreFrameworkBundle\Dashboard\Segments\HomepageSection;
+use Harryn\Jacobn\CoreFrameworkBundle\Dashboard\Segments\HomepageSection;
 
 class Apps extends HomepageSection
 {

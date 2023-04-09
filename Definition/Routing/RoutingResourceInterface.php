@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Routing;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Routing;
 
 interface RoutingResourceInterface
 {

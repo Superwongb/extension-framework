@@ -1,13 +1,13 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Webkul\UVDesk\ExtensionFrameworkBundle\DependencyInjection\ContainerExtension;
-use Webkul\UVDesk\ExtensionFrameworkBundle\DependencyInjection\Passes\RoutingPass;
-use Webkul\UVDesk\ExtensionFrameworkBundle\DependencyInjection\Passes\ConfigurationPass;
-use Webkul\UVDesk\ExtensionFrameworkBundle\DependencyInjection\Passes\PackageConfigurationPass;
+use Harryn\Jacobn\ExtensionFrameworkBundle\DependencyInjection\ContainerExtension;
+use Harryn\Jacobn\ExtensionFrameworkBundle\DependencyInjection\Passes\RoutingPass;
+use Harryn\Jacobn\ExtensionFrameworkBundle\DependencyInjection\Passes\ConfigurationPass;
+use Harryn\Jacobn\ExtensionFrameworkBundle\DependencyInjection\Passes\PackageConfigurationPass;
 
 class UVDeskExtensionFrameworkBundle extends Bundle
 {

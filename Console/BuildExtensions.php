@@ -1,15 +1,15 @@
 <?php
 
-namespace Webkul\UVDesk\ExtensionFrameworkBundle\Console;
+namespace Harryn\Jacobn\ExtensionFrameworkBundle\Console;
 
 use Symfony\Component\Yaml\Yaml;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Package\PackageMetadata;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Package\PackageInterface;
-use Webkul\UVDesk\ExtensionFrameworkBundle\Definition\Package\ConfigurablePackageInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Package\PackageMetadata;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Package\PackageInterface;
+use Harryn\Jacobn\ExtensionFrameworkBundle\Definition\Package\ConfigurablePackageInterface;
 
 class BuildExtensions extends Command
 {
@@ -97,7 +97,7 @@ class BuildExtensions extends Command
             }, $metadata),
         ];
 
-        $path = $this->container->getParameter('kernel.project_dir') . "/uvdesk.lock";
+        $path = $this->container->getParameter('kernel.project_dir') . "/jacobn.lock";
         file_put_contents($path, json_encode($lockfile, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
 
         return $lockfile;
@@ -185,7 +185,7 @@ class BuildExtensions extends Command
                 $namespaceIterations = explode('\\', $namespace);
 
                 if (count($namespaceIterations) >= 2) {
-                    if ('UVDesk' == $namespaceIterations[0] && 'CommunityPackages' == $namespaceIterations[1]) {
+                    if ('Jacobn' == $namespaceIterations[0] && 'CommunityPackages' == $namespaceIterations[1]) {
                         $expiredNamespaces[] = $namespace;
                     }
                 }
