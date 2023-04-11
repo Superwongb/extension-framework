@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^7.2.5 || ^8.0",
-        "uvdesk/composer-plugin": "^1.1",
+        "jacobn/composer-plugin": "^1.1",
         "jacobn/core-framework": "^1.1"
     },
     "autoload": {
@@ -23,7 +23,7 @@
     "minimum-stability": "stable",
     "config": {
         "allow-plugins": {
-            "uvdesk/composer-plugin": true
+            "jacobn/composer-plugin": true
         }
     }
 }
